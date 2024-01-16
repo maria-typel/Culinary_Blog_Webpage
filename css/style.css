@@ -7,3 +7,153 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
+
+/* nawigacja */
+.nav {
+	height: 50px;
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+	text-align: center;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: color 1s;
+}
+
+.nav-item a:hover {
+	color: rgb(98, 133, 149);
+}
+
+/* header */
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/cake-3669245.jpg');
+	background-size: cover;
+	background-position: 0 20%;
+}
+
+.header-text {
+	color: #2f2727;
+	z-index: 1;
+	font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+	position: absolute;
+	top: 5%;
+	right: 1%;
+	font-size: 76px;
+}
+
+.header-text p {
+	position: absolute;
+	top: 35%;
+	right: 5%;
+	font-size: 36px;
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.119);
+}
+
+/* main */
+main {
+	width: 1200px;
+	margin: 50px auto;
+}
+
+main h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.showcase-box {
+	position: relative;
+	height: 300px;
+	margin: 20px auto;
+	border-radius: 50px 0 50px 0;
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+}
+
+.top {
+	background-image: url('../img/cake8.jpg');
+}
+
+.middle {
+	background-image: url('../img/cake4.jpg');
+}
+
+.bottom {
+	background-image: url('../img/cake3.jpg');
+}
+
+.showcase-text {
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	padding: 20px 40px;
+	font-size: 18px;
+	color: #efe8e8;
+}
+
+.showcase-text h3 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.showcase-bg {
+	position: absolute;
+	bottom: 0;
+	height: 35%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.295);
+}
+
+/* footer */
+
+footer {
+	height: 100px;
+	line-height: 100px;
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.icon-box {
+	margin-left: 30px;
+	
+
+}
+
+.icon-box a {
+	margin: 0 10px;
+	font-size: 30px;
+	color: aliceblue;
+	transition: color 1s;
+}
+
+.icon-box a:hover {
+	color: rgb(98, 133, 149);
+}
