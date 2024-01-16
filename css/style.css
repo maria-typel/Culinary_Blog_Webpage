@@ -128,6 +128,57 @@ main h2 {
 	background-color: rgba(0, 0, 0, 0.295);
 }
 
+/* uslugi */
+.services-box {
+	height: 200px;
+}
+
+.services-box ul {
+	list-style-type: none;
+  }
+
+  .services-box li {
+	margin-bottom: 20px;
+  }
+
+/* cennik */
+
+.prices-box {
+	height: 200px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+/* kontakt */
+.contact-box {
+	text-align: center;
+	height: 200px;
+}
+
+.contact-box p {
+	margin-bottom: 25px;
+}
+.contact-box i {
+	font-size: 30px;
+	margin-right: 10px;
+	color: #7ee8fa;
+}
+
 /* footer */
 
 footer {
@@ -143,8 +194,6 @@ footer {
 
 .icon-box {
 	margin-left: 30px;
-	
-
 }
 
 .icon-box a {
