@@ -130,11 +130,12 @@ main h2 {
 
 /* uslugi */
 .services-box {
-	height: 200px;
+	height: 205px;
 }
 
 .services-box ul {
 	list-style-type: none;
+	text-align: center;
   }
 
   .services-box li {
